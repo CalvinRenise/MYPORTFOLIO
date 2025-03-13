@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvin Renise - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#portfolio" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Get in Touch</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h2 class="hero-title">Welcome to My World</h2>
+            <p class="hero-subtitle">I’m <span class="typewriter" data-words='["Calvin Renise", "Web Developer", "Innovator", "Problem Solver"]'></span></p>
+            <a href="#contact" class="cta-button">Let’s Collaborate</a>
+        </div>
+    </header>
+
+    <!-- Intro Section with Canvas -->
+    <section id="intro">
+        <canvas id="particle-canvas" style="position: absolute; width: 100%; height: 100%; z-index: 0;"></canvas>
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1>Calvin Renise</h1>
+                <p class="tagline">Crafting the Future of the Web</p>
+                <a href="./CalvinResume.pdf" class="resume-btn" target="_blank">Download My Resume</a>
+            </div>
+            <div class="profile-pic-container">
+                <img src="./Images/calvin.jpg" alt="Calvin Renise" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I’m Calvin Renise, a full-stack web developer based in Tirupattur, India. With expertise in MERN, Python, and UI design, I specialize in creating seamless digital experiences. My passion lies in solving complex problems and delivering innovative solutions. Let’s build something great together!</p>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul class="skills-list">
+                    <li>MERN Stack</li>
+                    <li>Python</li>
+                    <li>UI Design</li>
+                    <li>MySQL</li>
+                    <li>DCFA</li>
+                    <li>Cybersecurity</li>
+                    <li>AI Prompt Engineering</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <h2>My Projects</h2>
+        <p class="portfolio-subtitle">E-Commerce online food shopping web app - FoodTown</p>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="./Images/E-Commerce web app.png" alt="Project 1">
+                <div class="overlay">
+                    <h3>E-Commerce Web App</h3>
+                    <p>A full-stack e-commerce platform with MERN.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./Images/Superadmindashboard.png" alt="Project 2">
+                <div class="overlay">
+                    <h3>Dynamic Dashboard</h3>
+                    <p>Real-time dashboard built with React and Node.js.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <img src="./Images/Payment.png" alt="Project FoodTown">
+                <div class="overlay">
+                    <h3>AI Chatbot</h3>
+                    <p>Payment integration</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience">
+        <h2>Experience & Education</h2>
+        <div class="experience-content">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>MERN Stack Developer - Quench Technologies</h3>
+                    <p>03/2024 - 03/2025, Tirupattur</p>
+                    <p>Built a robust e-commerce platform with advanced payment systems.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Intern - Sacred Heart College</h3>
+                    <p>10/2023 - 10/2024, Tirupattur</p>
+                    <p>Streamlined NAAC documentation processes.</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Intern - Housr</h3>
+                    <p>08/2023 - 09/2023</p>
+                    <p>Developed educational content and led field initiatives.</p>
+                </div>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <p><strong>MCA</strong> - Sacred Heart College, Expected 04/2025</p>
+                <p><strong>PG Diploma in Cyber Security</strong> - Sacred Heart College, Expected 04/2025</p>
+                <p><strong>B.Ed</strong> - Indo American College, 01/2023</p>
+                <p><strong>BSc Mathematics</strong> - Thiruvalluvar University, 01/2020</p>
+                <h3>Skill Courses</h3>
+                <p><strong>Android App Development</strong> - [Institution Name], [Completion Date]</p>
+                <p><strong>Counselling Psychology</strong> - [Institution Name], [Completion Date]</p>
+                <p><strong>DCFA</strong> - [Institution Name], [Completion Date]</p>
+                <div class="certificate-buttons">
+                    <a href="./Mobile App developement.pdf" target="_blank" class="cert-btn">View Certificate (Android)</a>
+                    <a href="./Counselling Psychology.pdf" target="_blank" class="cert-btn">View Certificate (Counselling)</a>
+                    <a href="./DCFA.pdf" target="_blank" class="cert-btn">View Certificate (DCFA)</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <p><strong>Email:</strong> <a href="mailto:fcrenise16@gmail.com">fcrenise16@gmail.com</a></p>
+                    <p><strong>Phone:</strong> <a href="tel:+919791861734">+91 9791861734</a></p>
+                    <p><strong>Location:</strong> Tirupattur, India 606801</p>
+                    <p><strong>Connect:</strong> <a href="https://github.com/CalvinRenise">GitHub</a> | <a href="https://www.linkedin.com/in/calvin-renise/">LinkedIn</a></p>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <h3>Send a Message</h3>
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Calvin Renise. All Rights Reserved.</p>
+    </footer>
+
+    <!-- EmailJS SDK and Form Handling -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function(){
+            emailjs.init("jxKIU8J-m79wNRsiq"); // Replace with your EmailJS User ID
+        })();
+
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const formData = {
+                name: this.name.value,
+                email: this.email.value,
+                message: this.message.value
+            };
+            emailjs.send("service_ig1xeov", "template_fevdj3n", formData)
+                .then(function(response) {
+                    alert('Message sent successfully!');
+                    document.getElementById('contact-form').reset();
+                }, function(error) {
+                    alert('Failed to send message. Error: ' + JSON.stringify(error));
+                });
+        });
+    </script>
+
+    <!-- Include Script.js -->
+    <script src="Script.js"></script>
+</body>
+</html>
